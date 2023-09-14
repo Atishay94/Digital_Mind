@@ -1,0 +1,95 @@
+
+body::-webkit-scrollbar{
+    background-color: transparent;
+}
+body::-webkit-slider-thumb{  /* west */
+    background: linear-gradient(red,blue,green);
+    border-radius: 20px;
+
+}
+.tabletheme{
+            border:dotted;
+        }
+        .fieldtheme{
+            width:300px;
+            height:30px;
+            border-radius:30px;
+        }
+        .btntheme{
+            width:90px;
+            height:50px;
+            background-color:yellow;
+            color:blue;
+            border-radius:240px;
+            font-size:20px;
+        }
+/*        .btntheme::before{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+            z-index: -1;
+            transform-origin: left;
+        }
+        .btntheme:hover::before{
+            transform: scaleX(1);
+            transform-origin: left;
+        }*/
+        .tdtheme{
+            background-color: darkkhaki;
+            filter:no;
+            color:black;
+            width:20px;
+            height:18px;
+            font-size:15px;    
+            text-transform:uppercase ;
+        }
+        .tdtheme:hover
+        {
+            background-color: white;
+        }
+        .current{
+            background-color:darkkhaki;
+            color:rosybrown;
+            width:20px;
+            height:60px;
+            font-sixe:20px;
+            text-transform: uppercase;
+            }
+            a{
+              text-decoration:#tttt;
+              color: whitesmoke;   
+            }
+            .tabtheme{
+                width:150px;
+                height: 50px;
+                background-color: greenyellow;
+                color: white;
+                border-radius:40px;
+                font-size: 20px;
+                box-shadow: 1px 2px 10px #FFFFFF;
+            }
+            ul li{
+                font-family: arial;
+                font-weight: bold;
+                color: blue;
+                font-size: 15px;
+            }
+            .tbthemes{
+            background-color: lightblue;
+            filter:no;
+            color:black;
+            width:20px;
+            height:18px;
+            font-size:15px;    
+            text-transform:uppercase ;
+            border-radius: 20px;
+            }
+            .tbthemes:hover {
+                background-color: gray;
+            }
+            
+   
